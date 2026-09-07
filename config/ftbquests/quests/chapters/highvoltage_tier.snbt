@@ -1,0 +1,222 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "highvoltage_tier"
+	group: "347D8BCADE6C05D9"
+	id: "04319763260175D6"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"7519BC17855B4031"
+				"532014CBF3DA1D4C"
+				"6AF266AC25C06A4E"
+				"20727034DF1EE24E"
+			]
+			id: "11A59A0845A9B655"
+			tasks: [{
+				id: "5DA398BF688451B7"
+				item: "gtceu:nichrome_coil_block"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"6AF266AC25C06A4E"
+				"20727034DF1EE24E"
+				"0E9E8E14FFA3F882"
+				"20E4F1BD8B8D608D"
+			]
+			id: "7519BC17855B4031"
+			tasks: [{
+				id: "02742F03CF45C91D"
+				item: "gtceu:hv_assembler"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6AF266AC25C06A4E"]
+			icon: "gtceu:nichrome_ingot"
+			id: "532014CBF3DA1D4C"
+			tasks: [
+				{
+					id: "77F63DED16631C95"
+					item: "gtceu:nichrome_dust"
+					type: "item"
+				}
+				{
+					id: "16307285A151219E"
+					item: "gtceu:hot_nichrome_ingot"
+					type: "item"
+				}
+				{
+					id: "5E29C371E8455FA6"
+					item: "gtceu:nichrome_ingot"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"629D23FFE813FD62"
+				"1389589E730369E7"
+			]
+			id: "0E9E8E14FFA3F882"
+			tasks: [{
+				id: "36D0C552F591D185"
+				item: "gtceu:hv_robot_arm"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0F2E29A77F02CAAC"]
+			icon: "gtceu:hv_machine_hull"
+			id: "20E4F1BD8B8D608D"
+			tasks: [
+				{
+					id: "5A80136EF885A7AA"
+					item: "gtceu:hv_machine_casing"
+					type: "item"
+				}
+				{
+					id: "0AE29C392C51AEDE"
+					item: "gtceu:hv_machine_hull"
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["629D23FFE813FD62"]
+			id: "0F2E29A77F02CAAC"
+			tasks: [{
+				amount: 1000L
+				fluid: "gtceu:polyethylene"
+				id: "3199EDC18A545DD5"
+				type: "fluid"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6B7C0E941042F6A8"]
+			id: "1389589E730369E7"
+			tasks: [{
+				id: "422C7366D5AA8C80"
+				item: "gtceu:hv_electric_piston"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["20727034DF1EE24E"]
+			id: "6B7C0E941042F6A8"
+			tasks: [{
+				id: "6257AAA2065B34D9"
+				item: "gtceu:hv_electric_motor"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"651162DD21BF3237"
+				"20E4F1BD8B8D608D"
+			]
+			id: "14981103EA9D8464"
+			tasks: [{
+				id: "4B46A914CD131620"
+				item: "gtceu:hv_centrifuge"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"14981103EA9D8464"
+				"719D72FFF1303234"
+				"0A72831B658C6569"
+				"7666A4A6924250F4"
+			]
+			id: "2FDAF2474F860B2B"
+			tasks: [{
+				id: "69D95C032A1DE205"
+				item: "gtceu:inert_metal_mixture_dust"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"629D23FFE813FD62"
+				"28551D12FBD7B277"
+				"1B775787B208FABF"
+			]
+			id: "719D72FFF1303234"
+			tasks: [{
+				id: "3CA5072E94D94FB8"
+				item: "gtceu:platinum_group_sludge_dust"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"69AA2EDE9CE24233"
+				"10B89FE37BC39D07"
+			]
+			dependency_requirement: "one_completed"
+			id: "28551D12FBD7B277"
+			tasks: [
+				{
+					id: "15A93BC414609B66"
+					item: "gtceu:purified_chalcopyrite_ore"
+					type: "item"
+				}
+				{
+					id: "72BC7CF64976C955"
+					item: "gtceu:purified_bornite_ore"
+					type: "item"
+				}
+				{
+					id: "440EB0B9FE5B91A4"
+					item: "gtceu:purified_pentlandite_ore"
+					type: "item"
+				}
+				{
+					id: "64FA9297D79014FB"
+					item: "gtceu:purified_cooperite_ore"
+					type: "item"
+				}
+				{
+					id: "709963F67631EC39"
+					item: "gtceu:purified_tetrahedrite_ore"
+					type: "item"
+				}
+				{
+					id: "74D5665EFDDF4147"
+					item: "gtceu:purified_chalcocite_ore"
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: 5.0d
+		}
+	]
+	title: "High-Voltage Tier"
+}
