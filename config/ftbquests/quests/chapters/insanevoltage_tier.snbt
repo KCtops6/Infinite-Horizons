@@ -1,0 +1,94 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "insanevoltage_tier"
+	group: "347D8BCADE6C05D9"
+	id: "428E9A85EF3CEAEC"
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"14981103EA9D8464"
+				"719D72FFF1303234"
+			]
+			id: "4EF3E6641539DDEB"
+			tasks: [{
+				id: "377B0D29FF2EB36E"
+				item: "gtceu:rarest_metal_mixture_dust"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4EF3E6641539DDEB"]
+			id: "3DF2DF0B5492D43B"
+			tasks: [{
+				id: "5D334202DD06DFF6"
+				item: "gtceu:iridium_metal_residue_dust"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3DF2DF0B5492D43B"]
+			icon: "gtceu:iridium_dust"
+			id: "4B9DDB28BEF2970A"
+			tasks: [
+				{
+					id: "047B311E5F6778B2"
+					item: "gtceu:iridium_chloride_dust"
+					type: "item"
+				}
+				{
+					id: "6BAE1B0166CD4557"
+					item: "gtceu:iridium_dust"
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4B9DDB28BEF2970A"]
+			icon: "gtceu:iridium_ingot"
+			id: "6A6EBB64C82195E7"
+			tasks: [
+				{
+					id: "0B77F91540BC8629"
+					item: "gtceu:hot_iridium_ingot"
+					type: "item"
+				}
+				{
+					id: "46229D3BA5D35776"
+					item: "gtceu:iridium_ingot"
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4B9DDB28BEF2970A"]
+			icon: "gtceu:ruridit_ingot"
+			id: "761F488A1FF6CF8D"
+			tasks: [
+				{
+					id: "25756EBAFE6BBF29"
+					item: "gtceu:ruridit_dust"
+					type: "item"
+				}
+				{
+					id: "3350A7319F63C455"
+					item: "gtceu:ruridit_ingot"
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 1.0d
+		}
+	]
+	title: "Insane-Voltage Tier"
+}
