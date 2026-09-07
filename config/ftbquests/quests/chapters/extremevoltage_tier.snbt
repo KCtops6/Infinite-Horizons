@@ -1,0 +1,123 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "extremevoltage_tier"
+	group: "347D8BCADE6C05D9"
+	id: "6C41D4B605D39657"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"4BD8A052F179956E"
+				"233721BAA02B8B53"
+				"0D8B0803500D5241"
+			]
+			id: "52C08A16F6627C94"
+			tasks: [{
+				id: "48CC652F82D95173"
+				item: "gtceu:rtm_alloy_coil_block"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0E8E8F3DBF3ADA71"]
+			id: "4BD8A052F179956E"
+			tasks: [{
+				id: "768B162B02DF9214"
+				item: "gtceu:ev_assembler"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"11A59A0845A9B655"
+				"3A9AB7F8EDC4DD56"
+			]
+			id: "0D8B0803500D5241"
+			tasks: [{
+				id: "1CA14B340394747B"
+				item: "gtceu:rtm_alloy_ingot"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"651162DD21BF3237"
+				"2FDAF2474F860B2B"
+				"06D8C83EC587E6DD"
+			]
+			icon: "gtceu:ruthenium_dust"
+			id: "3A9AB7F8EDC4DD56"
+			tasks: [
+				{
+					id: "2A4D4D5F6080F6D5"
+					item: "gtceu:ruthenium_tetroxide_dust"
+					type: "item"
+				}
+				{
+					id: "62CF434286BB26B6"
+					item: "gtceu:ruthenium_dust"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0E8E8F3DBF3ADA71"]
+			id: "06D8C83EC587E6DD"
+			tasks: [{
+				id: "4012D14E9DF1506F"
+				item: "gtceu:ev_chemical_reactor"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["20724101959EB0CA"]
+			id: "0E8E8F3DBF3ADA71"
+			tasks: [
+				{
+					id: "20D99216640766D9"
+					item: "gtceu:ev_machine_casing"
+					type: "item"
+				}
+				{
+					id: "71ED28965C96E68D"
+					item: "gtceu:ev_machine_hull"
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0A72831B658C6569"]
+			icon: "gtceu:titanium_ingot"
+			id: "20724101959EB0CA"
+			tasks: [
+				{
+					id: "2AEA0E4C055D066F"
+					item: "gtceu:hot_titanium_ingot"
+					type: "item"
+				}
+				{
+					id: "2628670C5F50D9A0"
+					item: "gtceu:titanium_ingot"
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: -1.0d
+		}
+	]
+	title: "Extreme-Voltage Tier"
+}
