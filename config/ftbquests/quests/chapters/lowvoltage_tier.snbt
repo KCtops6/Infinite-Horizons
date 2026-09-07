@@ -900,72 +900,6 @@
 			y: 3.0d
 		}
 		{
-			dependencies: [
-				"4AC3A322B287707E"
-				"4B8F425D6033962E"
-				"0D7ECDABEB186FAA"
-			]
-			icon: "gtceu:electric_blast_furnace"
-			id: "362EBBC2B79A9C7A"
-			tasks: [
-				{
-					id: "0482E45212BBE669"
-					item: "gtceu:electric_blast_furnace"
-					type: "item"
-				}
-				{
-					id: "7C29D182AB4E7CB9"
-					item: "gtceu:maintenance_hatch"
-					type: "item"
-				}
-				{
-					id: "56B8265AB61F38B6"
-					item: "gtceu:lv_muffler_hatch"
-					type: "item"
-				}
-				{
-					count: 2L
-					id: "4C36B58D183064A3"
-					item: "gtceu:lv_energy_input_hatch"
-					type: "item"
-				}
-				{
-					id: "242D2BDA7F9E9A7E"
-					item: "gtceu:lv_output_hatch"
-					type: "item"
-				}
-				{
-					id: "5944AC5485E079F1"
-					item: "gtceu:lv_input_hatch"
-					type: "item"
-				}
-				{
-					id: "19EC1658921A6709"
-					item: "gtceu:lv_output_bus"
-					type: "item"
-				}
-				{
-					id: "2DA760CC70129A1A"
-					item: "gtceu:lv_input_bus"
-					type: "item"
-				}
-				{
-					count: 16L
-					id: "6E55A80F00621173"
-					item: "gtceu:cupronickel_coil_block"
-					type: "item"
-				}
-				{
-					count: 9L
-					id: "5E37F987C8A404E1"
-					item: "gtceu:heatproof_machine_casing"
-					type: "item"
-				}
-			]
-			x: 3.0d
-			y: 8.5d
-		}
-		{
 			dependencies: ["3B2A699613CA7763"]
 			id: "0D7ECDABEB186FAA"
 			tasks: [{
@@ -1196,6 +1130,96 @@
 			]
 			x: 11.0d
 			y: 9.5d
+		}
+		{
+			dependencies: [
+				"4AC3A322B287707E"
+				"4B8F425D6033962E"
+				"0D7ECDABEB186FAA"
+			]
+			icon: "gtceu:electric_blast_furnace"
+			id: "362EBBC2B79A9C7A"
+			tasks: [
+				{
+					id: "0482E45212BBE669"
+					item: "gtceu:electric_blast_furnace"
+					type: "item"
+				}
+				{
+					id: "7C29D182AB4E7CB9"
+					item: "gtceu:maintenance_hatch"
+					type: "item"
+				}
+				{
+					id: "56B8265AB61F38B6"
+					item: "gtceu:lv_muffler_hatch"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "4C36B58D183064A3"
+					item: "gtceu:lv_energy_input_hatch"
+					type: "item"
+				}
+				{
+					id: "242D2BDA7F9E9A7E"
+					item: "gtceu:lv_output_hatch"
+					type: "item"
+				}
+				{
+					id: "5944AC5485E079F1"
+					item: "gtceu:lv_input_hatch"
+					type: "item"
+				}
+				{
+					id: "19EC1658921A6709"
+					item: "gtceu:lv_output_bus"
+					type: "item"
+				}
+				{
+					id: "2DA760CC70129A1A"
+					item: "gtceu:lv_input_bus"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "6E55A80F00621173"
+					item: "gtceu:cupronickel_coil_block"
+					type: "item"
+				}
+				{
+					count: 9L
+					id: "5E37F987C8A404E1"
+					item: "gtceu:heatproof_machine_casing"
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["629D23FFE813FD62"]
+			id: "7666A4A6924250F4"
+			tasks: [{
+				amount: 1000L
+				fluid: "gtceu:aqua_regia"
+				id: "7EEDE415DAE20DBB"
+				type: "fluid"
+			}]
+			x: 7.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["629D23FFE813FD62"]
+			id: "1B775787B208FABF"
+			tasks: [{
+				amount: 1000L
+				fluid: "gtceu:nitric_acid"
+				id: "097204216D6923E7"
+				type: "fluid"
+			}]
+			x: 8.0d
+			y: -3.0d
 		}
 	]
 	title: "Low-Voltage Tier"
