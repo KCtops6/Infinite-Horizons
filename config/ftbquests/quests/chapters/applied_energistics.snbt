@@ -9,6 +9,10 @@
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: [
+				"3949B38795D8BB00"
+				"22A166C0303A6C2C"
+			]
 			id: "15E9F76342E1520F"
 			tasks: [{
 				id: "3931E784C614A1D5"
@@ -58,6 +62,11 @@
 			y: 2.0d
 		}
 		{
+			dependencies: [
+				"22AAAD6B01D78CF2"
+				"3949B38795D8BB00"
+				"22A166C0303A6C2C"
+			]
 			id: "3734C8C625BA6D20"
 			tasks: [{
 				id: "5B7C7A435FE424E6"
