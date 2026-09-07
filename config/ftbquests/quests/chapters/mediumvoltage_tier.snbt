@@ -81,20 +81,6 @@
 			y: 0.0d
 		}
 		{
-			dependencies: [
-				"71515B51FB81B332"
-				"7E7B213BD775D494"
-			]
-			id: "6AF266AC25C06A4E"
-			tasks: [{
-				id: "129449A2FB3FF94D"
-				item: "gtceu:mv_mixer"
-				type: "item"
-			}]
-			x: 3.0d
-			y: 0.0d
-		}
-		{
 			dependencies: ["5A078407C5CD1FBB"]
 			id: "71515B51FB81B332"
 			tasks: [{
@@ -128,8 +114,8 @@
 				item: "gtceu:chromium_dust"
 				type: "item"
 			}]
-			x: 2.0d
-			y: -2.0d
+			x: 4.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["426C7AF2A4441853"]
@@ -139,8 +125,8 @@
 				item: "gtceu:raw_ruby"
 				type: "item"
 			}]
-			x: 1.0d
-			y: -1.5d
+			x: 3.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["7ADACE156BAB2FB7"]
@@ -150,8 +136,8 @@
 				item: "gtceu:raw_chromite"
 				type: "item"
 			}]
-			x: 1.0d
-			y: -2.5d
+			x: 4.0d
+			y: -4.0d
 		}
 		{
 			id: "0D2ADF20DF2E9C12"
@@ -160,7 +146,76 @@
 				item: "gtceu:manganese_dust"
 				type: "item"
 			}]
-			x: 2.0d
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"71515B51FB81B332"
+				"7E7B213BD775D494"
+			]
+			id: "6AF266AC25C06A4E"
+			tasks: [{
+				id: "129449A2FB3FF94D"
+				item: "gtceu:mv_mixer"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"362EBBC2B79A9C7A"
+				"6AF266AC25C06A4E"
+			]
+			icon: "gtceu:vanadium_steel_ingot"
+			id: "233721BAA02B8B53"
+			tasks: [
+				{
+					id: "3467366BE55EC200"
+					item: "gtceu:vanadium_steel_dust"
+					type: "item"
+				}
+				{
+					id: "351CF6C14A7CFD1A"
+					item: "gtceu:vanadium_steel_ingot"
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7E7B213BD775D494"]
+			id: "651162DD21BF3237"
+			tasks: [{
+				id: "372922B79131A4F3"
+				item: "gtceu:mv_electrolyzer"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["799386CA00CDAD65"]
+			id: "0A72831B658C6569"
+			tasks: [{
+				id: "3F8D916BA00C1CBF"
+				item: "gtceu:kanthal_coil_block"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7E7B213BD775D494"]
+			id: "799386CA00CDAD65"
+			tasks: [{
+				id: "772B5FB686A5827F"
+				item: "gtceu:mv_assembler"
+				type: "item"
+			}]
+			x: 0.0d
 			y: 2.0d
 		}
 	]
