@@ -3835,6 +3835,17 @@
 			x: 12.0d
 			y: 2.0d
 		}
+		{
+			dependencies: ["7C8B00EACF7EFA22"]
+			id: "22AAAD6B01D78CF2"
+			tasks: [{
+				id: "2CA8692CB4D6C827"
+				item: "minecraft:sticky_piston"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -3.0d
+		}
 	]
 	title: "Alpha"
 }
