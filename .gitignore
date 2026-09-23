@@ -142,3 +142,5 @@ config/wikilookup-common.toml
 config/sidebar_buttons.json
 config/necronomicon.json5
 config/integratedterminals-common.toml
+config/entityculling.json
+config/mezz_config/client/default/settings.ini
