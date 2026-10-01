@@ -144,3 +144,5 @@ config/necronomicon.json5
 config/integratedterminals-common.toml
 config/entityculling.json
 config/mezz_config/client/default/settings.ini
+config/animalfeeds-common.toml
+config/usefulvillagers-common.toml
