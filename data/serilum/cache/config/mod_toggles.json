@@ -1,0 +1,45 @@
+{
+	"doubledoors": {
+		"collective_list": true,
+		"mod_config": true
+	},
+	"fishontheline": {
+		"collective_list": true,
+		"mod_config": true
+	},
+	"healingcampfire": {
+		"collective_list": true,
+		"mod_config": true
+	},
+	"infinitetrading": {
+		"collective_list": true,
+		"mod_config": true
+	},
+	"netherportalspread": {
+		"collective_list": true,
+		"mod_config": true
+	},
+	"overworldpiglins": {
+		"collective_list": true
+	},
+	"stackrefill": {
+		"collective_list": true,
+		"mod_config": true
+	},
+	"starterkit": {
+		"collective_list": true,
+		"mod_config": true
+	},
+	"treeharvester": {
+		"collective_list": true,
+		"mod_config": true
+	},
+	"villagernames": {
+		"collective_list": true,
+		"mod_config": true
+	},
+	"villagespawnpoint": {
+		"collective_list": true,
+		"mod_config": true
+	}
+}

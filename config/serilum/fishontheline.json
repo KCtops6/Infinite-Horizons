@@ -1,0 +1,11 @@
+{
+	"//": "These settings are easier to change in-game! Mod List -> Fish On The Line -> Config",
+	"Enable Fish On The Line": {
+		"//": "Whether Fish On The Line is enabled. When disabled, none of its features run and its other settings are hidden. Takes effect after a restart.",
+		"value": true
+	},
+	"mustHoldBellInOffhand": {
+		"//": "If enabled, the fish on the line sound will only go off if a bell is held in the offhand while fishing.",
+		"value": true
+	}
+}

@@ -1,0 +1,35 @@
+{
+	"//": "These settings are easier to change in-game! Mod List -> Infinite Trading -> Config",
+	"Enable Infinite Trading": {
+		"//": "Whether Infinite Trading is enabled. When disabled, none of its features run and its other settings are hidden. Takes effect after a restart.",
+		"value": true
+	},
+	"wanderingTraderInfiniteTrades": {
+		"//": "When enabled, the trades of the wandering trader will never lock up.",
+		"value": false
+	},
+	"villagerInfiniteTrades": {
+		"//": "When enabled, the trades of villagers will never lock up.",
+		"value": true
+	},
+	"moddedTraderInfiniteTrades": {
+		"//": "When enabled, the trades of traders from other mods will never lock up. For example custom villagers, or the goblins from Goblin Traders.",
+		"value": true
+	},
+	"minimumVillagerLevel": {
+		"//": "The level a villager needs before its trades become infinite. 1 is Novice, 5 is Master. Villagers below it keep their vanilla trade limits. min: 1, max: 5",
+		"value": 1
+	},
+	"tradeUsesMultiplier": {
+		"//": "When above 0, trades are no longer infinite, but can be used this many times the vanilla amount before they lock up. They restock like vanilla. For example 10 allows ten times as many trades. 0 keeps trades infinite. min: 0, max: 1,000",
+		"value": 0.0
+	},
+	"removeTradeDemand": {
+		"//": "When enabled, prices don't go up when a trade is used a lot. Disable to keep vanilla's demand prices, which update when a villager restocks.",
+		"value": true
+	},
+	"preventTradeLoops": {
+		"//": "When enabled, players can't endlessly earn emeralds with trade loops, like buying bookshelves and selling the books back. Per player, once selling an item earns more emeralds than that player spent on buying it or items crafted from or into it, their trades selling that item fall back to vanilla limits. This is counted per 20 minutes of play (the length of a Minecraft day), sleeping or changing the time does not reset it.",
+		"value": false
+	}
+}
