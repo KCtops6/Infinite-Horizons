@@ -147,3 +147,10 @@ config/mezz_config/client/default/settings.ini
 config/animalfeeds-common.toml
 config/usefulvillagers-common.toml
 /mods/
+config/justenoughbreeding.json
+config/dungeonconfig/
+config/letmedespawn/
+config/almanac
+config/smoothchunk.json
+config/notenoughanimations.json
+config/letmedespawn*
