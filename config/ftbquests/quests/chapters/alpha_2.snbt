@@ -3280,7 +3280,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: 3.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["1FFD16D39BDE1E10"]
@@ -3845,6 +3845,31 @@
 			}]
 			x: 11.0d
 			y: -3.0d
+		}
+		{
+			dependencies: ["1FFD16D39BDE1E10"]
+			description: ["Animal Feeds is a mod also developed by me to help you get all of the overworld animals easier. These are sold by farmer villagers in exchange for emeralds."]
+			id: "2BD31D516AF38DE9"
+			rewards: [{
+				id: "21D76B7C5C08E987"
+				item: "minecraft:emerald"
+				random_bonus: 2
+				type: "item"
+			}]
+			tasks: [{
+				id: "27A6D00F749F2FBB"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "animalfeeds:animal_feeds"
+					}
+				}
+				title: "Obtain Animal Feed"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 3.0d
 		}
 	]
 	title: "Alpha"
