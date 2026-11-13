@@ -640,3 +640,18 @@
 		#Enable/Disable netherite plate
 		enable_plate = true
 
+	[materials.ender_pearl]
+		#Texture style selection for ender_pearl_nugget. Options: IRON, GOLD, COPPER
+		#Allowed Values: IRON, GOLD, COPPER
+		nugget_texture_style = "IRON"
+		#Enable/Disable ender_pearl dust
+		enable_dust = true
+		#Enable/Disable ender_pearl plate
+		enable_plate = true
+
+	[materials.quartz]
+		#Enable/Disable quartz dust
+		enable_dust = true
+		#Enable/Disable quartz plate
+		enable_plate = true
+
