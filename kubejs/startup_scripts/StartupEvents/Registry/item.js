@@ -22,7 +22,7 @@ const glowing_items = [
 const dusts = [
     'aluminum', 'apatite', 'brass',
     'bronze', 'charcoal', 'cinnabar',
-    'constantan', 'corral', 'copper',
+    'constantan', 'copper',
     'diamond', 'electrum', 'emerald',
     'enderium', 'gold', 'invar',
     'iron', 'lapis', 'lead',
