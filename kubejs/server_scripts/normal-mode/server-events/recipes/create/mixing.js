@@ -52,8 +52,8 @@ ServerEvents.recipes(event => {
         heatRequirement: "superheated",
         ingredients: [
             { item: 'projecte:medium_covalence_dust' },
-            { item: 'kubejs:diamond_dust' },
-            { item: 'kubejs:netherite_dust' },
+            { item: 'infinite_resources:diamond_dust' },
+            { item: 'infinite_resources:netherite_dust' },
             { item: 'mysticalagriculture:cognizant_dust' }
         ],
         results: [{ item: 'projecte:high_covalence_dust' }]
@@ -66,7 +66,7 @@ ServerEvents.recipes(event => {
         ingredients: [
             { item: 'minecraft:redstone' },
             { item: 'minecraft:glowstone_dust' },
-            { item: 'kubejs:ender_pearl_dust' }
+            { item: 'infinite_resources:ender_pearl_dust' }
         ],
         results: [{ item: 'projecte:low_covalence_dust' }]
     }).id('kubejs:mixing/low_covalence_dust');
@@ -79,7 +79,7 @@ ServerEvents.recipes(event => {
             { item: 'projecte:low_covalence_dust' },
             { item: 'waystones:warp_dust' },
             { item: 'mysticalagriculture:soulium_dust' },
-            { item: 'kubejs:quartz_dust' }
+            { item: 'infinite_resources:quartz_dust' }
         ],
         results: [{ item: 'projecte:medium_covalence_dust' }]
     }).id('kubejs:mixing/medium_covalence_dust');
@@ -102,7 +102,7 @@ ServerEvents.recipes(event => {
         heatRequirement: "superheated",
         ingredients: [
             { item: 'kubejs:infinitium_ingot' },
-            { item: 'kubejs:ender_pearl_dust' },
+            { item: 'infinite_resources:ender_pearl_dust' },
             { item: 'extendedcrafting:luminessence' }
         ],
         results: [{ item: 'extendedcrafting:ender_ingot' }]
@@ -131,7 +131,7 @@ ServerEvents.recipes(event => {
     heatedAlloys.forEach(alloy => {
         const getIngredient = (name) => {
             const vanilla = ['iron', 'gold', 'copper'];
-            return vanilla.includes(name) ? `minecraft:${name}_ingot` : `kubejs:${name}_ingot`;
+            return vanilla.includes(name) ? `minecraft:${name}_ingot` : `infinite_resources:${name}_ingot`;
         };
 
         event.custom({
@@ -141,7 +141,7 @@ ServerEvents.recipes(event => {
                 { count: alloy.amount1, item: getIngredient(alloy.input1) },
                 { count: alloy.amount2, item: getIngredient(alloy.input2) }
             ],
-            results: [{ count: alloy.outputAmount, item: `kubejs:${alloy.output}_ingot` }]
+            results: [{ count: alloy.outputAmount, item: `infinite_resources:${alloy.output}_ingot` }]
         }).id(`kubejs:mixing/alloy/${alloy.output}`);
     });
 
