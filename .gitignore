@@ -153,3 +153,6 @@ config/almanac
 config/smoothchunk.json
 config/notenoughanimations.json
 config/letmedespawn*
+config/allayinajar-common.toml
+config/serilum/treeharvester.json
+config/serilum/treeharvester/
