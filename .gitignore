@@ -148,7 +148,6 @@ config/animalfeeds-common.toml
 config/usefulvillagers-common.toml
 /mods/
 config/justenoughbreeding.json
-config/dungeonconfig/
 config/letmedespawn/
 config/almanac
 config/smoothchunk.json
