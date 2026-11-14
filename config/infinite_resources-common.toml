@@ -22,6 +22,8 @@
 		#Texture style selection for diamond_nugget. Options: IRON, GOLD, COPPER
 		#Allowed Values: IRON, GOLD, COPPER
 		nugget_texture_style = "IRON"
+		#Enable/Disable diamond_nugget
+		enable_nugget = true
 
 	[materials.emerald]
 		#Enable/Disable emerald dust
@@ -31,6 +33,8 @@
 		#Texture style selection for emerald_nugget. Options: IRON, GOLD, COPPER
 		#Allowed Values: IRON, GOLD, COPPER
 		nugget_texture_style = "IRON"
+		#Enable/Disable emerald_nugget
+		enable_nugget = true
 
 	[materials.lapis]
 		#Enable/Disable lapis dust
@@ -40,6 +44,8 @@
 		#Texture style selection for lapis_nugget. Options: IRON, GOLD, COPPER
 		#Allowed Values: IRON, GOLD, COPPER
 		nugget_texture_style = "IRON"
+		#Enable/Disable lapis_nugget
+		enable_nugget = true
 
 	[materials.steel]
 		#Enable/Disable steel ingot
@@ -51,6 +57,8 @@
 		#Texture style selection for steel_nugget. Options: IRON, GOLD, COPPER
 		#Allowed Values: IRON, GOLD, COPPER
 		nugget_texture_style = "IRON"
+		#Enable/Disable steel_nugget
+		enable_nugget = true
 
 	[materials.brass]
 		#Enable/Disable brass ingot
@@ -62,6 +70,8 @@
 		#Texture style selection for brass_nugget. Options: IRON, GOLD, COPPER
 		#Allowed Values: IRON, GOLD, COPPER
 		nugget_texture_style = "IRON"
+		#Enable/Disable brass_nugget
+		enable_nugget = true
 
 	[materials.bronze]
 		#Enable/Disable bronze ingot
@@ -73,6 +83,8 @@
 		#Texture style selection for bronze_nugget. Options: IRON, GOLD, COPPER
 		#Allowed Values: IRON, GOLD, COPPER
 		nugget_texture_style = "IRON"
+		#Enable/Disable bronze_nugget
+		enable_nugget = true
 
 	[materials.tin]
 		#Enable/Disable tin ingot
@@ -89,6 +101,8 @@
 		#Texture style selection for raw_tin. Options: IRON, GOLD, COPPER
 		#Allowed Values: IRON, GOLD, COPPER
 		raw_ore_texture_style = "IRON"
+		#Enable/Disable tin_nugget
+		enable_nugget = true
 
 	[materials.lead]
 		#Enable/Disable lead ingot
@@ -105,6 +119,8 @@
 		#Texture style selection for raw_lead. Options: IRON, GOLD, COPPER
 		#Allowed Values: IRON, GOLD, COPPER
 		raw_ore_texture_style = "IRON"
+		#Enable/Disable lead_nugget
+		enable_nugget = true
 
 	[materials.silver]
 		#Enable/Disable silver ingot
@@ -121,6 +137,8 @@
 		#Texture style selection for raw_silver. Options: IRON, GOLD, COPPER
 		#Allowed Values: IRON, GOLD, COPPER
 		raw_ore_texture_style = "IRON"
+		#Enable/Disable silver_nugget
+		enable_nugget = true
 
 	[materials.nickel]
 		#Enable/Disable nickel ingot
@@ -137,6 +155,8 @@
 		#Texture style selection for raw_nickel. Options: IRON, GOLD, COPPER
 		#Allowed Values: IRON, GOLD, COPPER
 		raw_ore_texture_style = "IRON"
+		#Enable/Disable nickel_nugget
+		enable_nugget = true
 
 	[materials.aluminum]
 		#Enable/Disable aluminum ingot
@@ -153,6 +173,8 @@
 		#Texture style selection for raw_aluminum. Options: IRON, GOLD, COPPER
 		#Allowed Values: IRON, GOLD, COPPER
 		raw_ore_texture_style = "IRON"
+		#Enable/Disable aluminum_nugget
+		enable_nugget = true
 
 	[materials.zinc]
 		#Enable/Disable zinc ingot
@@ -169,6 +191,8 @@
 		#Texture style selection for raw_zinc. Options: IRON, GOLD, COPPER
 		#Allowed Values: IRON, GOLD, COPPER
 		raw_ore_texture_style = "IRON"
+		#Enable/Disable zinc_nugget
+		enable_nugget = true
 
 	[materials.invar]
 		#Enable/Disable invar ingot
@@ -180,6 +204,8 @@
 		#Texture style selection for invar_nugget. Options: IRON, GOLD, COPPER
 		#Allowed Values: IRON, GOLD, COPPER
 		nugget_texture_style = "IRON"
+		#Enable/Disable invar_nugget
+		enable_nugget = true
 
 	[materials.electrum]
 		#Enable/Disable electrum ingot
@@ -191,6 +217,8 @@
 		#Texture style selection for electrum_nugget. Options: IRON, GOLD, COPPER
 		#Allowed Values: IRON, GOLD, COPPER
 		nugget_texture_style = "IRON"
+		#Enable/Disable electrum_nugget
+		enable_nugget = true
 
 	[materials.constantan]
 		#Enable/Disable constantan ingot
@@ -202,6 +230,8 @@
 		#Texture style selection for constantan_nugget. Options: IRON, GOLD, COPPER
 		#Allowed Values: IRON, GOLD, COPPER
 		nugget_texture_style = "IRON"
+		#Enable/Disable constantan_nugget
+		enable_nugget = true
 
 	[materials.ruby]
 		#Enable/Disable ruby_gem
@@ -216,6 +246,8 @@
 		enable_dust = true
 		#Enable/Disable ruby plate
 		enable_plate = true
+		#Enable/Disable ruby_nugget
+		enable_nugget = true
 
 	[materials.sapphire]
 		#Enable/Disable sapphire_gem
@@ -230,6 +262,8 @@
 		enable_dust = true
 		#Enable/Disable sapphire plate
 		enable_plate = true
+		#Enable/Disable sapphire_nugget
+		enable_nugget = true
 
 	[materials.topaz]
 		#Enable/Disable topaz_gem
@@ -244,6 +278,8 @@
 		enable_dust = true
 		#Enable/Disable topaz plate
 		enable_plate = true
+		#Enable/Disable topaz_nugget
+		enable_nugget = true
 
 	[materials.opal]
 		#Enable/Disable opal_gem
@@ -258,6 +294,8 @@
 		enable_dust = true
 		#Enable/Disable opal plate
 		enable_plate = true
+		#Enable/Disable opal_nugget
+		enable_nugget = true
 
 	[materials.aquamarine]
 		#Enable/Disable aquamarine_gem
@@ -272,6 +310,8 @@
 		enable_dust = true
 		#Enable/Disable aquamarine plate
 		enable_plate = true
+		#Enable/Disable aquamarine_nugget
+		enable_nugget = true
 
 	[materials.peridot]
 		#Enable/Disable peridot_gem
@@ -286,6 +326,8 @@
 		enable_dust = true
 		#Enable/Disable peridot plate
 		enable_plate = true
+		#Enable/Disable peridot_nugget
+		enable_nugget = true
 
 	[materials.garnet]
 		#Enable/Disable garnet_gem
@@ -300,6 +342,8 @@
 		enable_dust = true
 		#Enable/Disable garnet plate
 		enable_plate = true
+		#Enable/Disable garnet_nugget
+		enable_nugget = true
 
 	[materials.jade]
 		#Enable/Disable jade_gem
@@ -314,6 +358,8 @@
 		enable_dust = true
 		#Enable/Disable jade plate
 		enable_plate = true
+		#Enable/Disable jade_nugget
+		enable_nugget = true
 
 	[materials.tourmaline]
 		#Enable/Disable tourmaline_gem
@@ -328,6 +374,8 @@
 		enable_dust = false
 		#Enable/Disable tourmaline plate
 		enable_plate = false
+		#Enable/Disable tourmaline_nugget
+		enable_nugget = true
 
 	[materials.citrine]
 		#Enable/Disable citrine_gem
@@ -342,6 +390,8 @@
 		enable_dust = false
 		#Enable/Disable citrine plate
 		enable_plate = false
+		#Enable/Disable citrine_nugget
+		enable_nugget = true
 
 	[materials.tanzanite]
 		#Enable/Disable tanzanite_gem
@@ -356,6 +406,8 @@
 		enable_dust = true
 		#Enable/Disable tanzanite plate
 		enable_plate = true
+		#Enable/Disable tanzanite_nugget
+		enable_nugget = true
 
 	[materials.amber]
 		#Enable/Disable amber_gem
@@ -370,6 +422,8 @@
 		enable_dust = true
 		#Enable/Disable amber plate
 		enable_plate = true
+		#Enable/Disable amber_nugget
+		enable_nugget = true
 
 	[materials.malachite]
 		#Enable/Disable malachite_gem
@@ -384,6 +438,8 @@
 		enable_dust = true
 		#Enable/Disable malachite plate
 		enable_plate = true
+		#Enable/Disable malachite_nugget
+		enable_nugget = true
 
 	[materials.onyx]
 		#Enable/Disable onyx_gem
@@ -398,6 +454,8 @@
 		enable_dust = false
 		#Enable/Disable onyx plate
 		enable_plate = false
+		#Enable/Disable onyx_nugget
+		enable_nugget = true
 
 	[materials.jasper]
 		#Enable/Disable jasper_gem
@@ -412,6 +470,8 @@
 		enable_dust = false
 		#Enable/Disable jasper plate
 		enable_plate = false
+		#Enable/Disable jasper_nugget
+		enable_nugget = true
 
 	[materials.agate]
 		#Enable/Disable agate_gem
@@ -426,6 +486,8 @@
 		enable_dust = false
 		#Enable/Disable agate plate
 		enable_plate = false
+		#Enable/Disable agate_nugget
+		enable_nugget = true
 
 	[materials.turquoise]
 		#Enable/Disable turquoise_gem
@@ -440,6 +502,8 @@
 		enable_dust = false
 		#Enable/Disable turquoise plate
 		enable_plate = false
+		#Enable/Disable turquoise_nugget
+		enable_nugget = true
 
 	[materials.tigerseye]
 		#Enable/Disable tigerseye_gem
@@ -454,6 +518,8 @@
 		enable_dust = false
 		#Enable/Disable tigerseye plate
 		enable_plate = false
+		#Enable/Disable tigerseye_nugget
+		enable_nugget = true
 
 	[materials.moonstone]
 		#Enable/Disable moonstone_gem
@@ -468,6 +534,8 @@
 		enable_dust = false
 		#Enable/Disable moonstone plate
 		enable_plate = false
+		#Enable/Disable moonstone_nugget
+		enable_nugget = true
 
 	[materials.sunstone]
 		#Enable/Disable sunstone_gem
@@ -482,6 +550,8 @@
 		enable_dust = false
 		#Enable/Disable sunstone plate
 		enable_plate = false
+		#Enable/Disable sunstone_nugget
+		enable_nugget = true
 
 	[materials.morganite]
 		#Enable/Disable morganite_gem
@@ -496,6 +566,8 @@
 		enable_dust = false
 		#Enable/Disable morganite plate
 		enable_plate = false
+		#Enable/Disable morganite_nugget
+		enable_nugget = true
 
 	[materials.iolite]
 		#Enable/Disable iolite_gem
@@ -510,6 +582,8 @@
 		enable_dust = false
 		#Enable/Disable iolite plate
 		enable_plate = false
+		#Enable/Disable iolite_nugget
+		enable_nugget = true
 
 	[materials.alexandrite]
 		#Enable/Disable alexandrite_gem
@@ -524,6 +598,8 @@
 		enable_dust = false
 		#Enable/Disable alexandrite plate
 		enable_plate = false
+		#Enable/Disable alexandrite_nugget
+		enable_nugget = true
 
 	[materials.carnelian]
 		#Enable/Disable carnelian_gem
@@ -538,6 +614,8 @@
 		enable_dust = false
 		#Enable/Disable carnelian plate
 		enable_plate = false
+		#Enable/Disable carnelian_nugget
+		enable_nugget = true
 
 	[materials.copper]
 		#Texture style selection for copper_nugget. Options: IRON, GOLD, COPPER
@@ -547,6 +625,8 @@
 		enable_dust = true
 		#Enable/Disable copper plate
 		enable_plate = true
+		#Enable/Disable copper_nugget
+		enable_nugget = true
 
 	[materials.osmium]
 		#Enable/Disable osmium ingot
@@ -563,6 +643,8 @@
 		#Texture style selection for raw_osmium. Options: IRON, GOLD, COPPER
 		#Allowed Values: IRON, GOLD, COPPER
 		raw_ore_texture_style = "IRON"
+		#Enable/Disable osmium_nugget
+		enable_nugget = true
 
 	[materials.obsidian]
 		#Texture style selection for obsidian_nugget. Options: IRON, GOLD, COPPER
@@ -572,6 +654,8 @@
 		enable_dust = true
 		#Enable/Disable obsidian plate
 		enable_plate = true
+		#Enable/Disable obsidian_nugget
+		enable_nugget = true
 
 	[materials.uranium]
 		#Enable/Disable uranium ingot
@@ -588,6 +672,8 @@
 		#Texture style selection for raw_uranium. Options: IRON, GOLD, COPPER
 		#Allowed Values: IRON, GOLD, COPPER
 		raw_ore_texture_style = "IRON"
+		#Enable/Disable uranium_nugget
+		enable_nugget = true
 
 	[materials.lumium]
 		#Enable/Disable lumium ingot
@@ -599,6 +685,8 @@
 		enable_dust = true
 		#Enable/Disable lumium plate
 		enable_plate = true
+		#Enable/Disable lumium_nugget
+		enable_nugget = true
 
 	[materials.signalum]
 		#Enable/Disable signalum ingot
@@ -610,6 +698,8 @@
 		enable_dust = true
 		#Enable/Disable signalum plate
 		enable_plate = true
+		#Enable/Disable signalum_nugget
+		enable_nugget = true
 
 	[materials.enderium]
 		#Enable/Disable enderium ingot
@@ -621,6 +711,8 @@
 		enable_dust = true
 		#Enable/Disable enderium plate
 		enable_plate = true
+		#Enable/Disable enderium_nugget
+		enable_nugget = true
 
 	[materials.coal]
 		#Texture style selection for coal_nugget. Options: IRON, GOLD, COPPER
@@ -630,6 +722,8 @@
 		enable_dust = true
 		#Enable/Disable coal plate
 		enable_plate = true
+		#Enable/Disable coal_nugget
+		enable_nugget = true
 
 	[materials.netherite]
 		#Texture style selection for netherite_nugget. Options: IRON, GOLD, COPPER
@@ -639,6 +733,8 @@
 		enable_dust = true
 		#Enable/Disable netherite plate
 		enable_plate = true
+		#Enable/Disable netherite_nugget
+		enable_nugget = true
 
 	[materials.ender_pearl]
 		#Texture style selection for ender_pearl_nugget. Options: IRON, GOLD, COPPER
@@ -648,10 +744,82 @@
 		enable_dust = true
 		#Enable/Disable ender_pearl plate
 		enable_plate = true
+		#Enable/Disable ender_pearl_nugget
+		enable_nugget = true
 
 	[materials.quartz]
 		#Enable/Disable quartz dust
 		enable_dust = true
 		#Enable/Disable quartz plate
+		enable_plate = true
+
+	[materials.apatite]
+		#Enable/Disable apatite_gem
+		enable_gem = true
+		#Texture silhouette layout for apatite_gem. Options: DIAMOND, EMERALD, QUARTZ, AMETHYST, LAPIS
+		#Allowed Values: DIAMOND, EMERALD, QUARTZ, AMETHYST, LAPIS
+		gem_texture_style = "DIAMOND"
+		#Enable/Disable apatite_nugget
+		enable_nugget = false
+		#Texture style selection for apatite_nugget. Options: IRON, GOLD, COPPER
+		#Allowed Values: IRON, GOLD, COPPER
+		nugget_texture_style = "IRON"
+		#Enable/Disable apatite dust
+		enable_dust = true
+		#Enable/Disable apatite plate
+		enable_plate = false
+
+	[materials.cinnabar]
+		#Enable/Disable cinnabar_gem
+		enable_gem = true
+		#Texture silhouette layout for cinnabar_gem. Options: DIAMOND, EMERALD, QUARTZ, AMETHYST, LAPIS
+		#Allowed Values: DIAMOND, EMERALD, QUARTZ, AMETHYST, LAPIS
+		gem_texture_style = "DIAMOND"
+		#Enable/Disable cinnabar_nugget
+		enable_nugget = false
+		#Texture style selection for cinnabar_nugget. Options: IRON, GOLD, COPPER
+		#Allowed Values: IRON, GOLD, COPPER
+		nugget_texture_style = "IRON"
+		#Enable/Disable cinnabar dust
+		enable_dust = true
+		#Enable/Disable cinnabar plate
+		enable_plate = false
+
+	[materials.niter]
+		#Enable/Disable niter_gem
+		enable_gem = true
+		#Texture silhouette layout for niter_gem. Options: DIAMOND, EMERALD, QUARTZ, AMETHYST, LAPIS
+		#Allowed Values: DIAMOND, EMERALD, QUARTZ, AMETHYST, LAPIS
+		gem_texture_style = "DIAMOND"
+		#Enable/Disable niter_nugget
+		enable_nugget = false
+		#Texture style selection for niter_nugget. Options: IRON, GOLD, COPPER
+		#Allowed Values: IRON, GOLD, COPPER
+		nugget_texture_style = "IRON"
+		#Enable/Disable niter dust
+		enable_dust = true
+		#Enable/Disable niter plate
+		enable_plate = false
+
+	[materials.sulfur]
+		#Enable/Disable sulfur_gem
+		enable_gem = true
+		#Texture silhouette layout for sulfur_gem. Options: DIAMOND, EMERALD, QUARTZ, AMETHYST, LAPIS
+		#Allowed Values: DIAMOND, EMERALD, QUARTZ, AMETHYST, LAPIS
+		gem_texture_style = "DIAMOND"
+		#Enable/Disable sulfur_nugget
+		enable_nugget = false
+		#Texture style selection for sulfur_nugget. Options: IRON, GOLD, COPPER
+		#Allowed Values: IRON, GOLD, COPPER
+		nugget_texture_style = "IRON"
+		#Enable/Disable sulfur dust
+		enable_dust = true
+		#Enable/Disable sulfur plate
+		enable_plate = false
+
+	[materials.charcoal]
+		#Enable/Disable charcoal dust
+		enable_dust = true
+		#Enable/Disable charcoal plate
 		enable_plate = true
 
