@@ -112,7 +112,7 @@ ServerEvents.recipes(event => {
             Item.of('gtceu:raw_pyrolusite').withChance(0.0026),
             Item.of('gtceu:raw_tantalite').withChance(0.0026),
             Item.of('gtceu:raw_thorium').withChance(0.0009)
-        ], ['kubejs:basalt_gravel', 'kubejs:bronze_mesh']).id('kubejs/recipes/createsiftersifting/bronze/basalt_gravel');
+        ], ['infinite_horizons_tweaks:basalt_gravel', 'kubejs:bronze_mesh']).id('kubejs/recipes/createsiftersifting/bronze/basalt_gravel');
         event.recipes.createsifterSifting([
             Item.of('gtceu:raw_naquadah').withChance(0.0281),
             Item.of('gtceu:raw_pitchblende').withChance(0.0281),
