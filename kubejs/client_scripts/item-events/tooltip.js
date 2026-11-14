@@ -114,4 +114,22 @@ ItemEvents.tooltip(event => {
     marked_for_removal.forEach(m => {
         event.add(m, Text.red('Marked for removal in v16.1'));
     });
+    global.dust_materials.forEach(d => {
+        if (d != 'infinitium') event.add(`kubejs:${d}_dust`, Text.red('Marked for removal in v17.1'));
+    });
+    global.plate_materials.forEach(d => {
+        if (d != 'infinitium') event.add(`kubejs:${d}_plate`, Text.red('Marked for removal in v17.1'));
+    });
+    global.ingot_materials.forEach(d => {
+        if (d != 'infinitium') event.add(`kubejs:${d}_ingot`, Text.red('Marked for removal in v17.1'));
+    });
+    global.gems_materials.forEach(d => {
+        if (d != 'infinitium') event.add(`kubejs:${d}_gem`, Text.red('Marked for removal in v17.1'));
+    });
+    global.gear_materials.forEach(d => {
+        if (d != 'infinitium') event.add(`kubejs:${d}_gear`, Text.red('Marked for removal in v17.1'));
+    });
+    global.nugget_materials.forEach(d => {
+        if (d != 'infinitium') event.add(`kubejs:${d}_nugget`, Text.red('Marked for removal in v17.1'));
+    });
 });
