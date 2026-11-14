@@ -114,6 +114,13 @@ ItemEvents.tooltip(event => {
     marked_for_removal.forEach(m => {
         event.add(m, Text.red('Marked for removal in v16.1'));
     });
+    var marked_for_removal2 = [
+        'kubejs:basalt_gravel', 'kubejs:granite_gravel', 'kubejs:limestone_gravel',
+        'kubejs:netherite_gravel', 'kubejs:tuff_gravel'
+    ];
+    marked_for_removal2.forEach(m => {
+        event.add(m, Text.red('Marked for removal in v17.1'));
+    });
     global.dust_materials.forEach(d => {
         if (d != 'infinitium') event.add(`kubejs:${d}_dust`, Text.red('Marked for removal in v17.1'));
     });
