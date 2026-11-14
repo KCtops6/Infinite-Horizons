@@ -3,7 +3,7 @@ ServerEvents.recipes(event => {
         { input: 'minecraft:sand', output: 'createsifter:dust'},
         { input: 'minecraft:gravel', output: 'minecraft:sand'},
         { input: 'minecraft:netherrack', output: 'infinite_horizons_tweaks:netherrack_gravel'},
-        { input: 'minecraft:basalt', output: 'kubejs:basalt_gravel'},
+        { input: 'minecraft:basalt', output: 'infinite_horizons_tweaks:basalt_gravel'},
         { input: 'minecraft:end_stone', output: 'infinite_horizons_tweaks:end_stone_gravel'}
     ]
 
