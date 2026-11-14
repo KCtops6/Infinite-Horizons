@@ -8,9 +8,9 @@ ServerEvents.recipes(event => {
         { input: 'minecraft:tuff', output: 'infinite_horizons_tweaks:tuff_gravel' },
         { input: 'minecraft:sand', output: 'createsifter:dust' },
         { input: 'minecraft:cobbled_deepslate', output: 'infinite_horizons_tweaks:deepslate_gravel' },
-        { input: 'minecraft:basalt', output: 'kubejs:basalt_gravel' },
-        { input: 'create:limestone', output: 'kubejs:limestone_gravel' },
-        { input: 'minecraft:ender_pearl', output: 'kubejs:ender_pearl_dust' }
+        { input: 'minecraft:basalt', output: 'infinite_horizons_tweaks:basalt_gravel' },
+        { input: 'create:limestone', output: 'infinite_horizons_tweaks:limestone_gravel' },
+        { input: 'minecraft:ender_pearl', output: 'infinite_resources:ender_pearl_dust' }
     ];
 
     recipes.forEach(recipe => {
