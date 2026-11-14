@@ -66,13 +66,13 @@ ServerEvents.recipes(event => {
         { item: "infinite_horizons_tweaks:tuff_gravel", chance: 0.25 },
         { item: "infinite_horizons_tweaks:tuff_pebble", chance: 0.75 },
         { item: "infinite_horizons_tweaks:deepslate_pebble", chance: 0.25 },
-        { item: "kubejs:limestone_pebble", chance: 0.25 }
+        { item: "infinite_horizons_tweaks:limestone_pebble", chance: 0.25 }
     ]);
     cutting('infinite_horizons_tweaks:deepslate_gravel', 'infinite_horizons_tweaks:iron_trowel', [
         { item: "infinite_horizons_tweaks:deepslate_gravel", chance: 0.25 },
         { item: "infinite_horizons_tweaks:deepslate_pebble", chance: 0.75 },
         { item: "infinite_horizons_tweaks:tuff_pebble", chance: 0.25 },
-        { item: "kubejs:limestone_pebble", chance: 0.25 }
+        { item: "infinite_horizons_tweaks:limestone_pebble", chance: 0.25 }
     ]);
     cutting('twigs:silt', '#forge:tools/shovels', [
         { item: "twigs:silt_ball", count: 4 }
