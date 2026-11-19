@@ -774,7 +774,7 @@
 			id: "7ADACE156BAB2FB7"
 			tasks: [{
 				id: "4963833AB1445B22"
-				item: "kubejs:end_stone_gravel"
+				item: "infinite_horizons_tweaks:end_stone_gravel"
 				type: "item"
 			}]
 			x: 19.0d
@@ -1785,13 +1785,13 @@
 			id: "426C7AF2A4441853"
 			rewards: [{
 				id: "0123A1274072A6A5"
-				item: "kubejs:deepslate_gravel"
+				item: "infinite_horizons_tweaks:deepslate_gravel"
 				random_bonus: 2
 				type: "item"
 			}]
 			tasks: [{
-				id: "535B8EC55E6885A4"
-				item: "kubejs:deepslate_gravel"
+				id: "62BA26D7F0783561"
+				item: "infinite_horizons_tweaks:deepslate_gravel"
 				type: "item"
 			}]
 			x: 6.0d
