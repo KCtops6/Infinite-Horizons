@@ -451,8 +451,8 @@
 			]
 			id: "4D8406023D00753A"
 			tasks: [{
-				id: "4C42FC758EF47BB9"
-				item: "kubejs:netherrack_gravel"
+				id: "44A1F6D24DBD5AEC"
+				item: "infinite_horizons_tweaks:netherrack_gravel"
 				type: "item"
 			}]
 			x: 19.0d
